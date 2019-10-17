@@ -5,31 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css2/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>register</title>
-    <style>
-        .the-legend {
-            border-style: none;
-            border-width: 0;
-            font-size: 12px;
-            font-weight: 300;
-            line-height: 20px;
-            margin-bottom: 0;
-            width: auto;
-            padding: 0 10px;
-            border: 0px solid #e0e0e0;
-        }
-
-        .the-fieldset {
-            border-radius: 5px;
-            border: 1px solid #e0e0e0;
-            padding: 10px;
-        }
-
-        .space {
-            margin: 10px;
-        }
-    </style>
+   
 </head>
 
 <body background="img/jamb2.ng">
@@ -38,18 +17,26 @@
             <div class="col-sm-3 space">
                 <fieldset class="row the-fieldset">
                     <label for="fname"><b>First name:</b>
-                        <input class="fname" type="text" placeholder="" required>
+                        <input class="form-control form-control-sm" type="text" placeholder="">
                         <br>
-                        <br>
+                        
                         <label for="">MiddleName:</label>
-                        <input class="Mname" type="text" placeholder="" required>
+                        <input class="form-control form-control-sm" type="text" placeholder="">
                         <br>
-                        <br>
+                        
                         <label for="Sname"><b>Surname:</label>
-                        <input class="Sname" type="text" placeholder="" required>
+                            <input class="form-control form-control-sm" type="text" placeholder="">
                         <br>
-                        <br>
-                        <div class="DOB">
+                        <div class="DOB"> 
+                            <div class="form-group">
+                            <label>Date of Birth</label>
+                            <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
+                          </div>
+                      </div>
+                      
+                      
+                      
+                          <!--<div class="DOB">
                             <label for="DOB">Date of birth</label>
                             <select name='day' id='day'>
                                 <option value='1'>1</option>
@@ -73,7 +60,7 @@
                             <select name='day' id='blah'>
                                 <option value='1947'>1947</option>
                             </select>
-                        </div>
+                        </div>-->
                         <br>
                         <div>
                             <label for="gender">Gender:</label>
@@ -84,17 +71,17 @@
                         </div>
                         <br>
 
-                        <div id="blind">
+                        <div id="checkblind">
                             <label for="yes_no_radio">Are you Blind?</label>
                             <p>
-                                <input type="radio" name="yes_no">Yes</input>
+                                <input type="radio" name="yes_no">Yes</inpu>
                             </p>
                             <p>
                                 <input type="radio" name="yes_no" checked>No</input>
                             </p>
                         </div>
                         <br>
-                        <div id="deaf">
+                        <div id="checkdeaf">
                             <label for="yes_no_radio">Are you Deaf?</label>
                             <p>
                                 <input type="radio" name="true_false">Yes</input>
@@ -702,212 +689,6 @@
     </div>
 
     <br>
-    <div class="col-sm-9">
-        <div class="border-2">
-            <div class="head1">
-                <b>Choice Of Institution
-                </b>
-            </div>
-            <div class="firstchoice">
-                <b>First Choice</b>
-                <br>
-                <label>Degree Type</label>
-                <select class="choice1">
-                    <option value="">Select...</option>
-                    <option value="degree">Degree</option>
-                    <option value="ond">OND</option>
-                    <option value="nce">NCE</option>
-                </select>
-
-                <br>
-                <label>Institution</label>
-                <select class="Institution">
-
-                    <option class="" value=""></option>
-
-
-                </select>
-                <br>
-                <label>Programme</label>
-                <select class=program>
-
-                    <option value=""></option>
-
-
-                </select>
-            </div>
-
-            <br>
-
-            <div class="secondchoice">
-                <b>Second Choice</b>
-                <br>
-                <label>Degree Type</label>
-                <select class="choice1">
-                    <option value="">Select...</option>
-                    <option value="degree">Degree</option>
-                    <option value="ond">OND</option>
-                    <option value="nce">NCE</option>
-                </select>
-
-                <br>
-                <label>Institution</label>
-                <select class="Institution">
-
-                    <option value=""></option>
-
-
-                </select>
-                <br>
-                <label>Programme</label>
-                <select class="program">
-
-                    <option value=""></option>
-
-
-                </select>
-            </div>
-
-            <br>
-
-            <div class="thirdchoice">
-                <b>Third Choice</b>
-                <br>
-                <label>Degree Type</label>
-                <select class="choice1">
-                    <option value="">Select...</option>
-                    <option value="degree">Degree</option>
-                    <option value="ond">OND</option>
-                    <option value="nce">NCE</option>
-                </select>
-
-                <br>
-                <label>Institution</label>
-                <select class="Institution">
-
-                    <option value=""></option>
-
-
-                </select>
-                <br>
-                <label>programme</label>
-                <select class="program">
-
-                    <option value=""></option>
-
-
-                </select>
-            </div>
-            <br>
-            <div class="thirdchoice">
-                <b>Fourth Choice</b>
-                <br>
-                <label>Degree Type</label>
-                <select class="choice1">
-                    <option value="">Select...</option>
-                    <option value="degree">Degree</option>
-                    <option value="ond">OND</option>
-                    <option value="nce">NCE</option>
-                </select>
-
-                <br>
-                <label>Institution</label>
-                <select class="Institution">
-
-                    <option value=""></option>
-                </select>
-                <br>
-                <label>programme</label>
-                <select class="program">
-
-                    <option value=""></option>
-
-
-                </select>
-            </div>
-
-            <fieldset class="row the-fieldset">
-                <legend class="the-legend">Utme Subjects</legend>
-                <div class="col-sm-2" style="padding:0px 20px;">
-                    <div class="checkbox">
-                        <input type="checkbox" />Use of English
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Agriculture
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Arabic
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Art (fine art)
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Biology
-                    </div>
-                </div>
-                <div class="col-sm-2" style="padding:0px 20px;">
-                    <div class="checkbox">
-                        <input type="checkbox" />Chemistry
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />C.R.S
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Commerce
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Economics
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />French
-                    </div>
-                </div>
-                <div class="col-sm-2" style="padding:0px 20px;">
-                    <div class="checkbox">
-                        <input type="checkbox" />Geography
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Government
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Hausa
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />History
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Home Economics
-                    </div>
-                </div>
-                <div class="col-sm-2" style="padding:0px 20px;">
-                    <div class="checkbox">
-                        <input type="checkbox" />Igbo
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Islamic studies
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Lit in English
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Mathematics
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Music
-                    </div>
-                </div>
-                <div class="col-sm-2" style="padding:0px 20px;">
-                    <div class="checkbox">
-                        <input type="checkbox" />Physics
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Princ. of Account
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" />Yoruba
-                    </div>
-            </fieldset>
-        </div>
-    </div>
+    
 
 </html>
