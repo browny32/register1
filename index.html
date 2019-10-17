@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>register</title>
-   
+
 </head>
 
 <body background="img/jamb2.ng">
@@ -16,27 +16,30 @@
         <div class="row">
             <div class="col-sm-3 space">
                 <fieldset class="row the-fieldset">
-                    <label for="fname"><b>First name:</b>
-                        <input class="form-control form-control-sm" type="text" placeholder="">
-                        <br>
-                        
-                        <label for="">MiddleName:</label>
-                        <input class="form-control form-control-sm" type="text" placeholder="">
-                        <br>
-                        
-                        <label for="Sname"><b>Surname:</label>
+                    <div class="form-group row">
+                        <label class="col-sm-4" for="fname">First name:</label>
+                        <div class="col-sm-8">
                             <input class="form-control form-control-sm" type="text" placeholder="">
-                        <br>
-                        <div class="DOB"> 
-                            <div class="form-group">
+                        </div>
+                    </div>
+
+                    <label for="">MiddleName:</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="">
+                    <br>
+
+                    <label for="Sname"><b>Surname:</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="">
+                    <br>
+                    <div class="DOB">
+                        <div class="form-group">
                             <label>Date of Birth</label>
                             <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
-                          </div>
-                      </div>
-                      
-                      
-                      
-                          <!--<div class="DOB">
+                        </div>
+                    </div>
+
+
+
+                    <!--<div class="DOB">
                             <label for="DOB">Date of birth</label>
                             <select name='day' id='day'>
                                 <option value='1'>1</option>
@@ -61,52 +64,52 @@
                                 <option value='1947'>1947</option>
                             </select>
                         </div>-->
-                        <br>
-                        <div>
-                            <label for="gender">Gender:</label>
-                            <select name="gender" class="gender">
-                                <option value="male">male</option>
-                                <option value="female">female</option>
-                            </select>
-                        </div>
-                        <br>
+                    <br>
+                    <div>
+                        <label for="gender">Gender:</label>
+                        <select name="gender" class="gender">
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                        </select>
+                    </div>
+                    <br>
 
-                        <div id="checkblind">
-                            <label for="yes_no_radio">Are you Blind?</label>
-                            <p>
-                                <input type="radio" name="yes_no">Yes</inpu>
-                            </p>
-                            <p>
-                                <input type="radio" name="yes_no" checked>No</input>
-                            </p>
-                        </div>
-                        <br>
-                        <div id="checkdeaf">
-                            <label for="yes_no_radio">Are you Deaf?</label>
-                            <p>
-                                <input type="radio" name="true_false">Yes</input>
-                            </p>
-                            <p>
-                                <input type="radio" name="true_false" checked>No</input>
-                            </p>
-                        </div>
-                        <br>
-                        <div>
-                            <label for="">Other challenges:</label>
-                            <select name="" class="challenges">
-                                <option value="">None</option>
-                                <option value="">Yes</option>
+                    <div id="checkblind">
+                        <label for="yes_no_radio">Are you Blind?</label>
+                        <p>
+                            <input type="radio" name="yes_no">Yes</inpu>
+                        </p>
+                        <p>
+                            <input type="radio" name="yes_no" checked>No</input>
+                        </p>
+                    </div>
+                    <br>
+                    <div id="checkdeaf">
+                        <label for="yes_no_radio">Are you Deaf?</label>
+                        <p>
+                            <input type="radio" name="true_false">Yes</input>
+                        </p>
+                        <p>
+                            <input type="radio" name="true_false" checked>No</input>
+                        </p>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Other challenges:</label>
+                        <select name="" class="challenges">
+                            <option value="">None</option>
+                            <option value="">Yes</option>
 
-                            </select>
-                            <br>
-                            <label for="">Marital Status:</label>
-                            <select name="" class="marital">
-                                <option value="">Single</option>
-                                <option value="">Married</option>
-                                <option value="">Divorced</option>
-                                <option value="">Widowed</option>
-                            </select>
-                        </div>
+                        </select>
+                        <br>
+                        <label for="">Marital Status:</label>
+                        <select name="" class="marital">
+                            <option value="">Single</option>
+                            <option value="">Married</option>
+                            <option value="">Divorced</option>
+                            <option value="">Widowed</option>
+                        </select>
+                    </div>
                 </fieldset>
                 <br>
                 <fieldset class="row the-fieldset">
@@ -114,56 +117,48 @@
                         <b>Contacts and origin</b>
                         <br>
                         <br>
-                        <label for="pnumber"><b>GSM
-
-                                number</b>
-                            <input class="pnumber" type="text" placeholder="" name="" required>
-                            <br>
-                            <br>
-                            <label for="email"><b>Email address:</b>
-                                <input class="email" type="text" placeholder="enter a valid email address" name=""
-                                    required>
+                        <label for="pnumber"><b>GSM number</b></label>
+                        <input class="pnumber" type="text" placeholder="" name="" required>
+                        <br>
+                        <br>
+                        <label for="email"><b>Email address:</b></label>
+                        <input class="email" type="text" placeholder="enter a valid email address" name="" required>
 
 
-                                <br>
-                                <br>
-                                <label for="">Address Location:</label>
-                                <select name="" class="addressL">
-                                    <option value="">Nigeria</option>
-                                    <option value="">Outside Nigeria</option>
-                                </select>
-                                <br>
-                                <br>
-                                <label for=""><b>Address:</b>
-                                    <input class="address" type="text" placeholder="" required>
-                                    <br>
-                                    <br>
-                                    <label for=""><b>Town:</b>
-                                        <input class="town" type="text" placeholder="" required>
-                                        <br>
-                                        <br>
-                                        <label for=""><b>State:</b>
-                                            <select name="states_of_nigeria" id="state">
-                                            </select>
-                                            <br>
-                                            <br>
-                                            <label for=""><b>Nationality:</b></label>
-                                            <select name="counties" class="country">
+                        <br>
+                        <br>
+                        <label for="">Address Location:</label>
+                        <select name="" class="addressL">
+                            <option value="">Nigeria</option>
+                            <option value="">Outside Nigeria</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for=""><b>Address:</b></label>
+                        <input class="address" type="text" placeholder="" required>
+                        <br>
+                        <br>
+                        <label for=""><b>Town:</b></label>
+                        <input class="town" type="text" placeholder="" required>
+                        <br>
+                        <br>
+                        <label for=""><b>State:</b></label>
+                        <select name="states_of_nigeria" id="state">
+                        </select>
+                        <br>
+                        <br>
+                        <label for=""><b>Nationality:</b></label>
+                        <select name="counties" class="country">
 
-                                            </select>
-                                            <br>
-
-
-                                            <label for=""><b>State and Local Govt:</b></label>
+                        </select>
+                        <br>
 
 
-                                            <select name="states_of_nigeria" id="state">
+                        <label for=""><b>State and Local Govt:</b></label>
 
 
-
-
-
-                                            </select>
+                        <select name="states_of_nigeria" id="state">
+                        </select>
                     </div>
                 </fieldset>
             </div>
@@ -689,6 +684,6 @@
     </div>
 
     <br>
-    
+
 
 </html>
