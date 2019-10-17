@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css2/bootstrap.min.css">
+    <title>register</title>
+    <style>
+        .the-legend {
+            border-style: none;
+            border-width: 0;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 20px;
+            margin-bottom: 0;
+            width: auto;
+            padding: 0 10px;
+            border: 0px solid #e0e0e0;
+        }
+
+        .the-fieldset {
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+        }
+
+        .space {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body background="img/jamb2.ng">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 space">
+                <fieldset class="row the-fieldset">
+                    <label for="fname"><b>First name:</b>
+                        <input class="fname" type="text" placeholder="" required>
+                        <br>
+                        <br>
+                        <label for="">MiddleName:</label>
+                        <input class="Mname" type="text" placeholder="" required>
+                        <br>
+                        <br>
+                        <label for="Sname"><b>Surname:</label>
+                        <input class="Sname" type="text" placeholder="" required>
+                        <br>
+                        <br>
+                        <div class="DOB">
+                            <label for="DOB">Date of birth</label>
+                            <select name='day' id='day'>
+                                <option value='1'>1</option>
+                            </select>
+
+                            <select name='month' id='month'>
+                                <option value='1'>January</option>
+                                <option value='2'>Febuary</option>
+                                <option value='3'>March</option>
+                                <option value='4'>April</option>
+                                <option value='5'>May</option>
+                                <option value='6'>June</option>
+                                <option value='7'>July</option>
+                                <option value='8'>August</option>
+                                <option value='9'>September</option>
+                                <option value='10'>October</option>
+                                <option value='11'>November</option>
+                                <option value='12'>December</option>
+                            </select>
+
+                            <select name='day' id='blah'>
+                                <option value='1947'>1947</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="gender">Gender:</label>
+                            <select name="gender" class="gender">
+                                <option value="male">male</option>
+                                <option value="female">female</option>
+                            </select>
+                        </div>
+                        <br>
+
+                        <div id="blind">
+                            <label for="yes_no_radio">Are you Blind?</label>
+                            <p>
+                                <input type="radio" name="yes_no">Yes</input>
+                            </p>
+                            <p>
+                                <input type="radio" name="yes_no" checked>No</input>
+                            </p>
+                        </div>
+                        <br>
+                        <div id="deaf">
+                            <label for="yes_no_radio">Are you Deaf?</label>
+                            <p>
+                                <input type="radio" name="true_false">Yes</input>
+                            </p>
+                            <p>
+                                <input type="radio" name="true_false" checked>No</input>
+                            </p>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="">Other challenges:</label>
+                            <select name="" class="challenges">
+                                <option value="">None</option>
+                                <option value="">Yes</option>
+
+                            </select>
+                            <br>
+                            <label for="">Marital Status:</label>
+                            <select name="" class="marital">
+                                <option value="">Single</option>
+                                <option value="">Married</option>
+                                <option value="">Divorced</option>
+                                <option value="">Widowed</option>
+                            </select>
+                        </div>
+                </fieldset>
+                <br>
+                <fieldset class="row the-fieldset">
+                    <div class="">
+                        <b>Contacts and origin</b>
+                        <br>
+                        <br>
+                        <label for="pnumber"><b>GSM
+
+                                number</b>
+                            <input class="pnumber" type="text" placeholder="" name="" required>
+                            <br>
+                            <br>
+                            <label for="email"><b>Email address:</b>
+                                <input class="email" type="text" placeholder="enter a valid email address" name=""
+                                    required>
+
+
+                                <br>
+                                <br>
+                                <label for="">Address Location:</label>
+                                <select name="" class="addressL">
+                                    <option value="">Nigeria</option>
+                                    <option value="">Outside Nigeria</option>
+                                </select>
+                                <br>
+                                <br>
+                                <label for=""><b>Address:</b>
+                                    <input class="address" type="text" placeholder="" required>
+                                    <br>
+                                    <br>
+                                    <label for=""><b>Town:</b>
+                                        <input class="town" type="text" placeholder="" required>
+                                        <br>
+                                        <br>
+                                        <label for=""><b>State:</b>
+                                            <select name="states_of_nigeria" id="state">
+                                            </select>
+                                            <br>
+                                            <br>
+                                            <label for=""><b>Nationality:</b></label>
+                                            <select name="counties" class="country">
+
+                                            </select>
+                                            <br>
+
+
+                                            <label for=""><b>State and Local Govt:</b></label>
+
+
+                                            <select name="states_of_nigeria" id="state">
+
+
+
+
+
+                                            </select>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-sm-8 space">
+                <fieldset class="row the-fieldset">
+                    <legend class="the-legend">Title</legend>
+                    <div class="border-2">
+                        <div class="head1">
+                            <b>Choice Of Institution
+                            </b>
+                        </div>
+                        <div class="firstchoice">
+                            <b>First Choice</b>
+                            <br>
+                            <label>Degree Type</label>
+                            <select class="choice1">
+                                <option value="">Select...</option>
+                                <option value="degree">Degree</option>
+                                <option value="ond">OND</option>
+                                <option value="nce">NCE</option>
+                            </select>
+
+                            <br>
+                            <label>Institution</label>
+                            <select class="Institution">
+
+                                <option class="" value=""></option>
+
+
+                            </select>
+                            <br>
+                            <label>Programme</label>
+                            <select class=program>
+
+                                <option value=""></option>
+
+
+                            </select>
+                        </div>
+
+                        <br>
+
+                        <div class="secondchoice">
+                            <b>Second Choice</b>
+                            <br>
+                            <label>Degree Type</label>
+                            <select class="choice1">
+                                <option value="">Select...</option>
+                                <option value="degree">Degree</option>
+                                <option value="ond">OND</option>
+                                <option value="nce">NCE</option>
+                            </select>
+
+                            <br>
+                            <label>Institution</label>
+                            <select class="Institution">
+
+                                <option value=""></option>
+
+
+                            </select>
+                            <br>
+                            <label>Programme</label>
+                            <select class="program">
+
+                                <option value=""></option>
+
+
+                            </select>
+                        </div>
+
+                        <br>
+
+                        <div class="thirdchoice">
+                            <b>Third Choice</b>
+                            <br>
+                            <label>Degree Type</label>
+                            <select class="choice1">
+                                <option value="">Select...</option>
+                                <option value="degree">Degree</option>
+                                <option value="ond">OND</option>
+                                <option value="nce">NCE</option>
+                            </select>
+
+                            <br>
+                            <label>Institution</label>
+                            <select class="Institution">
+
+                                <option value=""></option>
+
+
+                            </select>
+                            <br>
+                            <label>programme</label>
+                            <select class="program">
+
+                                <option value=""></option>
+
+
+                            </select>
+                        </div>
+                        <br>
+                        <div class="thirdchoice">
+                            <b>Fourth Choice</b>
+                            <br>
+                            <label>Degree Type</label>
+                            <select class="choice1">
+                                <option value="">Select...</option>
+                                <option value="degree">Degree</option>
+                                <option value="ond">OND</option>
+                                <option value="nce">NCE</option>
+                            </select>
+
+                            <br>
+                            <label>Institution</label>
+                            <select class="Institution">
+
+                                <option value=""></option>
+                            </select>
+                            <br>
+                            <label>programme</label>
+                            <select class="program">
+
+                                <option value=""></option>
+
+
+                            </select>
+                        </div>
+                </fieldset>
+
+                <fieldset class="row the-fieldset">
+                    <legend class="the-legend">Title</legend>
+                    <div class="col-sm-2" style="padding:0px 20px;">
+                        <div class="checkbox">
+                            <input type="checkbox" />Use of English
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Agriculture
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Arabic
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Art (fine art)
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Biology
+                        </div>
+                    </div>
+                    <div class="col-sm-2" style="padding:0px 20px;">
+                        <div class="checkbox">
+                            <input type="checkbox" />Chemistry
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />C.R.S
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Commerce
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Economics
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />French
+                        </div>
+                    </div>
+                    <div class="col-sm-2" style="padding:0px 20px;">
+                        <div class="checkbox">
+                            <input type="checkbox" />Geography
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Government
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Hausa
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />History
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Home Economics
+                        </div>
+                    </div>
+                    <div class="col-sm-2" style="padding:0px 20px;">
+                        <div class="checkbox">
+                            <input type="checkbox" />Igbo
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Islamic studies
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Lit in English
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Mathematics
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Music
+                        </div>
+                    </div>
+                    <div class="col-sm-2" style="padding:0px 20px;">
+                        <div class="checkbox">
+                            <input type="checkbox" />Physics
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Princ. of Account
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />Yoruba
+                        </div>
+                </fieldset>
+
+                <fieldset class="row the-fieldset">
+
+
+                    <div class="Osubjects">
+
+                        <div class="sittings">
+                            <b>O'level subjects</b> <br><label for="sittings">No of sittings</label>
+                            <select class="">
+                                <option value="">select...</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+
+                            </select>
+
+                            <br>
+                            <br>
+                            <table id="customers">
+
+                                <tr>
+                                    <th>Subjects</th>
+                                    <th>Grades</th>
+                                    <th>Series</th>
+                                    <th>Exam year</th>
+                                    <th>Examination</th>
+                                    <th>Exam/Reg Number</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="">
+                                            <option value="">English</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="">A1</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="1">WAEC</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="2019">2019</option>
+                                        </select>
+                                    <td>
+                                        <select class="">
+                                            <option value="">School Examination</option>
+                                            <option value="">Private Examination</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input class="Mname" type="text" placeholder="" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="">
+                                            <option value="">English</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="">A1</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="1">WAEC</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="2019">2019</option>
+                                        </select>
+                                    <td>
+                                        <select class="">
+                                            <option value="">School Examination</option>
+                                            <option value="">Private Examination</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input class="Mname" type="text" placeholder="" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="">
+                                            <option value="">English</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="">A1</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="1">WAEC</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="2019">2019</option>
+                                        </select>
+                                    <td>
+                                        <select class="">
+                                            <option value="">School Examination</option>
+                                            <option value="">Private Examination</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input class="Mname" type="text" placeholder="" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="">
+                                            <option value="">English</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="">A1</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="1">WAEC</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="2019">2019</option>
+                                        </select>
+                                    <td>
+                                        <select class="">
+                                            <option value="">School Examination</option>
+                                            <option value="">Private Examination</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input class="Mname" type="text" placeholder="" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="">
+                                            <option value="">English</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="">A1</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="1">WAEC</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="2019">2019</option>
+                                        </select>
+                                    <td>
+                                        <select class="">
+                                            <option value="">School Examination</option>
+                                            <option value="">Private Examination</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input class="Mname" type="text" placeholder="" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="">
+                                            <option value="">English</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="">A1</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="1">WAEC</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="2019">2019</option>
+                                        </select>
+                                    <td>
+                                        <select class="">
+                                            <option value="">School Examination</option>
+                                            <option value="">Private Examination</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input class="Mname" type="text" placeholder="" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="">
+                                            <option value="">English</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="">A1</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="1">WAEC</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="2019">2019</option>
+                                        </select>
+                                    <td>
+                                        <select class="">
+                                            <option value="">School Examination</option>
+                                            <option value="">Private Examination</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input class="Mname" type="text" placeholder="" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="">
+                                            <option value="">English</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="">A1</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="1">WAEC</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="2019">2019</option>
+                                        </select>
+                                    <td>
+                                        <select class="">
+                                            <option value="">School Examination</option>
+                                            <option value="">Private Examination</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input class="Mname" type="text" placeholder="" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="">
+                                            <option value="">English</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="">A1</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="1">WAEC</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="">
+                                            <option value="2019">2019</option>
+                                        </select>
+                                    <td>
+                                        <select class="">
+                                            <option value="">School Examination</option>
+                                            <option value="">Private Examination</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input class="Mname" type="text" placeholder="" required>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div id="overlay" class="col-sm-4">
+
+            <br>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="col-sm-9">
+        <div class="border-2">
+            <div class="head1">
+                <b>Choice Of Institution
+                </b>
+            </div>
+            <div class="firstchoice">
+                <b>First Choice</b>
+                <br>
+                <label>Degree Type</label>
+                <select class="choice1">
+                    <option value="">Select...</option>
+                    <option value="degree">Degree</option>
+                    <option value="ond">OND</option>
+                    <option value="nce">NCE</option>
+                </select>
+
+                <br>
+                <label>Institution</label>
+                <select class="Institution">
+
+                    <option class="" value=""></option>
+
+
+                </select>
+                <br>
+                <label>Programme</label>
+                <select class=program>
+
+                    <option value=""></option>
+
+
+                </select>
+            </div>
+
+            <br>
+
+            <div class="secondchoice">
+                <b>Second Choice</b>
+                <br>
+                <label>Degree Type</label>
+                <select class="choice1">
+                    <option value="">Select...</option>
+                    <option value="degree">Degree</option>
+                    <option value="ond">OND</option>
+                    <option value="nce">NCE</option>
+                </select>
+
+                <br>
+                <label>Institution</label>
+                <select class="Institution">
+
+                    <option value=""></option>
+
+
+                </select>
+                <br>
+                <label>Programme</label>
+                <select class="program">
+
+                    <option value=""></option>
+
+
+                </select>
+            </div>
+
+            <br>
+
+            <div class="thirdchoice">
+                <b>Third Choice</b>
+                <br>
+                <label>Degree Type</label>
+                <select class="choice1">
+                    <option value="">Select...</option>
+                    <option value="degree">Degree</option>
+                    <option value="ond">OND</option>
+                    <option value="nce">NCE</option>
+                </select>
+
+                <br>
+                <label>Institution</label>
+                <select class="Institution">
+
+                    <option value=""></option>
+
+
+                </select>
+                <br>
+                <label>programme</label>
+                <select class="program">
+
+                    <option value=""></option>
+
+
+                </select>
+            </div>
+            <br>
+            <div class="thirdchoice">
+                <b>Fourth Choice</b>
+                <br>
+                <label>Degree Type</label>
+                <select class="choice1">
+                    <option value="">Select...</option>
+                    <option value="degree">Degree</option>
+                    <option value="ond">OND</option>
+                    <option value="nce">NCE</option>
+                </select>
+
+                <br>
+                <label>Institution</label>
+                <select class="Institution">
+
+                    <option value=""></option>
+                </select>
+                <br>
+                <label>programme</label>
+                <select class="program">
+
+                    <option value=""></option>
+
+
+                </select>
+            </div>
+
+            <fieldset class="row the-fieldset">
+                <legend class="the-legend">Utme Subjects</legend>
+                <div class="col-sm-2" style="padding:0px 20px;">
+                    <div class="checkbox">
+                        <input type="checkbox" />Use of English
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Agriculture
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Arabic
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Art (fine art)
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Biology
+                    </div>
+                </div>
+                <div class="col-sm-2" style="padding:0px 20px;">
+                    <div class="checkbox">
+                        <input type="checkbox" />Chemistry
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />C.R.S
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Commerce
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Economics
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />French
+                    </div>
+                </div>
+                <div class="col-sm-2" style="padding:0px 20px;">
+                    <div class="checkbox">
+                        <input type="checkbox" />Geography
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Government
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Hausa
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />History
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Home Economics
+                    </div>
+                </div>
+                <div class="col-sm-2" style="padding:0px 20px;">
+                    <div class="checkbox">
+                        <input type="checkbox" />Igbo
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Islamic studies
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Lit in English
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Mathematics
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Music
+                    </div>
+                </div>
+                <div class="col-sm-2" style="padding:0px 20px;">
+                    <div class="checkbox">
+                        <input type="checkbox" />Physics
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Princ. of Account
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" />Yoruba
+                    </div>
+            </fieldset>
+        </div>
+    </div>
+
+</html>

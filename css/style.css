@@ -1,0 +1,246 @@
+body {
+  
+}
+  
+
+  
+#overlay{
+  width: 25%;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-color: rgb(173, 184, 176);
+  border-width: 2px;
+  padding: 7px;
+  }
+.fname{
+  width: 70%;
+  height: 20px;
+}
+.Mname{
+  width: 67%;
+  height: 20px;
+  
+}
+.Sname{
+  width: 75%;
+  height: 20px;
+  
+}
+.gender{
+    width: 78.6%;
+}
+
+
+
+.challenges{
+  width: 55%;
+}
+.marital{
+  width: 62%;
+}
+.contactOrigin{
+  width: 27%;
+  height: 0;
+  position: relative;
+  bottom: 00px;
+  padding: 5PX;
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-color:  rgb(245, 247, 245);
+  
+
+  }
+  .pnumber{
+    width: 66.6%;
+    height: 20px;
+    
+  }
+  .addressL{
+    width: 55%;
+  }
+  .address{
+    width: 240px;
+    height: 20px;
+  }
+  .town{
+    width: 83%;
+    height: 20px;
+  }
+  #state{
+    width: 260px;
+    height: 20px;
+  }
+  .email{
+    width: 195px;
+  }
+  .country{
+    width: 220px;
+  }
+  .head1{
+    position: relative;
+    left: 300px;
+  }
+.border-2{
+  width: 80%;
+  height: 300px;
+  position: relative;
+  bottom: 460px;
+  left: 370px;
+  border-radius: 20px 20px 20px 20px;
+  border-style:  rgb(152, 175, 159);
+  border-width: 1px;
+}
+
+.firstchoice{
+  width: 50%;
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+  padding: 6PX;
+  left: 15px;
+  
+  border-style: solid;
+  border-color:  rgb(152, 175, 159);
+  border-width: 1px;
+}
+.secondchoice{
+  width: 50%;
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+  padding: 6PX;
+  left: 14px;
+  
+  border-style: solid;
+  border-color:  rgb(152, 175, 159);
+  border-width: 1px;
+}
+.thirdchoice{
+  width: 50%;
+  position: relative;
+  bottom: 255px;
+  left: 500px;
+  padding: 6PX;
+  border-style: solid;
+  border-color:  rgb(152, 175, 159);
+  border-width: 1px;
+  border-radius: 20px 20px 20px 20px;
+}
+.row {
+  position: relative;
+  width: 98%;
+  bottom: 210px;
+  overflow: hidden;
+  padding: 5px;
+  cursor: pointer;
+  left: 18px;
+  border-style: solid;
+  border-color:  rgb(152, 175, 159);
+  border-width: 1px;
+  border-radius: 20px 20px 20px 20px;
+  
+}
+
+
+.col {
+  float: left;
+  padding: 1px;
+  margin-right: 5px;
+  cursor: pointer;
+  display:flex;    
+  align-items:flex-start;
+}
+.head2{
+  position: relative;
+  left: 300px;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: solid;
+  width: 100%;
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+  
+
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  border-radius: 20px 20px 20px 20px;
+  padding: 3px;
+
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: none;
+  color: black;
+}
+.Osubjects{
+
+}
+
+#blind
+{
+  
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-color:  rgb(152, 175, 159);
+  border-width: 1px;
+  display: flex;
+  padding:6px;
+  height: 36px;
+  
+}
+
+
+#deaf
+{
+  
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-color:  rgb(153, 175, 159);
+  border-width: 1px;
+  display: flex;
+  padding:6px;
+  height: 36px;
+  
+}
+.sittings{
+  position: relative;
+  bottom: 200px;
+
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-color:  rgb(153, 175, 159);
+  border-width: 1px;
+  
+  
+}
+
+.choice1{
+  width: 60%;
+
+}
+.Institution{
+  width: 63%;
+}
+.program{
+  width: 61%;
+}
+.test{
+
+}
+#row2{
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  right:1000px;
+}
