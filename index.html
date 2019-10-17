@@ -22,17 +22,23 @@
                             <input class="form-control form-control-sm" type="text" placeholder="">
                         </div>
                     </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4" for="fname">Last name:</label>
+                        <div class="col-sm-8">
+                            <input class="form-control form-control-sm" type="text" placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4" for="fname">Surname:</label>
+                        <div class="col-sm-8">
+                            <input class="form-control form-control-sm" type="text" placeholder="">
+                        </div>
+                    </div>
 
-                    <label for="">MiddleName:</label>
-                    <input class="form-control form-control-sm" type="text" placeholder="">
-                    <br>
 
-                    <label for="Sname"><b>Surname:</label>
-                    <input class="form-control form-control-sm" type="text" placeholder="">
-                    <br>
-                    <div class="DOB">
-                        <div class="form-group">
-                            <label>Date of Birth</label>
+                    <div class="form-group row">
+                        <label class="col-sm-4">Date of Birth:</label>
+                        <div class="col-sm-8">
                             <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
                         </div>
                     </div>
@@ -64,111 +70,130 @@
                                 <option value='1947'>1947</option>
                             </select>
                         </div>-->
+
+
+                    <div class="form-group row">
+                        <label class="col-sm-4">Gender:</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" name="gender" class="gender">
+                                <option value="male">male</option>
+                                <option value="female">female</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="the-fieldset">
+                        <label class="radio-inline">Are You Blind?</label>
+                        <input type="radio" name="optradio">yes
+
+                        <input type="radio" name="optradio" checked>No
+                    </div>
                     <br>
-                    <div>
-                        <label for="gender">Gender:</label>
-                        <select name="gender" class="gender">
-                            <option value="male">male</option>
-                            <option value="female">female</option>
-                        </select>
+                    <div class="the-fieldset">
+                        <label class="radio-inline">Are You Deaf?</label>
+                        <input type="radio" name="opradio">yes
+
+                        <input type="radio" name="opradio" checked>No
                     </div>
                     <br>
 
-                    <div id="checkblind">
-                        <label for="yes_no_radio">Are you Blind?</label>
-                        <p>
-                            <input type="radio" name="yes_no">Yes</inpu>
-                        </p>
-                        <p>
-                            <input type="radio" name="yes_no" checked>No</input>
-                        </p>
+                    <div class="form-group row">
+                        <label class="col-sm-4">Other Challenges:</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" name="gender" class="gender">
+                                <option value="male">male</option>
+                                <option value="female">female</option>
+                            </select>
+                        </div>
                     </div>
-                    <br>
-                    <div id="checkdeaf">
-                        <label for="yes_no_radio">Are you Deaf?</label>
-                        <p>
-                            <input type="radio" name="true_false">Yes</input>
-                        </p>
-                        <p>
-                            <input type="radio" name="true_false" checked>No</input>
-                        </p>
+                    <div class="form-group row">
+                        <label class="col-sm-4">Marital Status:</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" name="gender" class="gender">
+                                <option value="select">select..</option>
+                                <option value="male">single</option>
+                                <option value="">Married</option>
+                                <option value="">Divored</option>
+                                <option value="">widowed</option>
+                            </select>
+                        </div>
                     </div>
-                    <br>
-                    <div>
-                        <label for="">Other challenges:</label>
-                        <select name="" class="challenges">
-                            <option value="">None</option>
-                            <option value="">Yes</option>
 
-                        </select>
-                        <br>
-                        <label for="">Marital Status:</label>
-                        <select name="" class="marital">
-                            <option value="">Single</option>
-                            <option value="">Married</option>
-                            <option value="">Divorced</option>
-                            <option value="">Widowed</option>
-                        </select>
-                    </div>
                 </fieldset>
                 <br>
                 <fieldset class="row the-fieldset">
+                    <legend class="the-legend">Contact And Origin</legend>
                     <div class="">
-                        <b>Contacts and origin</b>
-                        <br>
-                        <br>
-                        <label for="pnumber"><b>GSM number</b></label>
-                        <input class="pnumber" type="text" placeholder="" name="" required>
-                        <br>
-                        <br>
-                        <label for="email"><b>Email address:</b></label>
-                        <input class="email" type="text" placeholder="enter a valid email address" name="" required>
 
+                        <div class="form-group row">
+                            <label class="col-sm-5" for="fname">Phone Number:</label>
+                            <div class="col-sm-7">
+                                <input class="form-control form-control-sm" type="text" placeholder="">
+                            </div>
+                        </div>
 
+                        <div class="form-group row">
+                            <label class="col-sm-5" for="fname">Email Address:</label>
+                            <div class="col-sm-7">
+                                <input class="form-control form-control-sm" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="the-fieldset">
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio" checked>Adress in Nigeria
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio">Adress Outside Nigeria
+                            </label>
+                        </div>
                         <br>
-                        <br>
-                        <label for="">Address Location:</label>
-                        <select name="" class="addressL">
-                            <option value="">Nigeria</option>
-                            <option value="">Outside Nigeria</option>
-                        </select>
-                        <br>
-                        <br>
-                        <label for=""><b>Address:</b></label>
-                        <input class="address" type="text" placeholder="" required>
-                        <br>
-                        <br>
-                        <label for=""><b>Town:</b></label>
-                        <input class="town" type="text" placeholder="" required>
-                        <br>
-                        <br>
-                        <label for=""><b>State:</b></label>
-                        <select name="states_of_nigeria" id="state">
-                        </select>
-                        <br>
-                        <br>
-                        <label for=""><b>Nationality:</b></label>
-                        <select name="counties" class="country">
+                        <div class="form-group row">
+                            <label class="col-sm-4" for="fname">Address:</label>
+                            <div class="col-sm-8">
+                                <input class="form-control form-control-sm" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-4" for="fname">Town:</label>
+                            <div class="col-sm-8">
+                                <input class="form-control form-control-sm" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                                <label class="col-sm-4">State:</label>
+                                <div class="col-sm-8">
+                                    <select class="form-control" name="" class="">
+                                        <option value="select">select..</option>
+                                        
 
-                        </select>
-                        <br>
-
-
-                        <label for=""><b>State and Local Govt:</b></label>
-
-
-                        <select name="states_of_nigeria" id="state">
-                        </select>
-                    </div>
+                                    </select>
+                                </div>
+                            </div>
+                        <div class="form-group row">
+                                <label class="col-sm-4">Nationality:</label>
+                                <div class="col-sm-8">
+                                    <select class="form-control" name="" class="">
+                                        <option value="select">select..</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                    <label class="col-sm-8">State And Local Govt:</label>
+                                    <div class="col-sm-4">
+                                        <select class="form-control" name="" class="">
+                                            <option value="select">select..</option>
+                                       </select>
+                                    
+                             </div>
                 </fieldset>
             </div>
             <div class="col-sm-8 space">
                 <fieldset class="row the-fieldset">
-                    <legend class="the-legend">Title</legend>
+                    <legend class="the-legend">Choice Of Institution</legend>
                     <div class="border-2">
                         <div class="head1">
-                            <b>Choice Of Institution
-                            </b>
+
                         </div>
                         <div class="firstchoice">
                             <b>First Choice</b>
@@ -290,7 +315,7 @@
                 </fieldset>
 
                 <fieldset class="row the-fieldset">
-                    <legend class="the-legend">Title</legend>
+                    <legend class="the-legend">UTME Subjects</legend>
                     <div class="col-sm-2" style="padding:0px 20px;">
                         <div class="checkbox">
                             <input type="checkbox" />Use of English
@@ -372,12 +397,12 @@
                 </fieldset>
 
                 <fieldset class="row the-fieldset">
-
+                    <legend class="the-legend">O'level Subjects</legend>
 
                     <div class="Osubjects">
 
                         <div class="sittings">
-                            <b>O'level subjects</b> <br><label for="sittings">No of sittings</label>
+                            <label for="sittings">No of sittings</label>
                             <select class="">
                                 <option value="">select...</option>
                                 <option value="">1</option>

@@ -45,3 +45,32 @@
   padding:6px;
   height: 36px;
 }
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: solid;
+    width: 100%;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    
+  
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    border-radius: 20px 20px 20px 20px;
+    padding: 3px;
+  
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: none;
+    color: black;
+  }

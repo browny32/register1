@@ -126,17 +126,12 @@ body {
   border-radius: 20px 20px 20px 20px;
 }
 .row {
-  position: relative;
-  width: 98%;
-  bottom: 210px;
-  overflow: hidden;
-  padding: 5px;
+  padding: 3px;
   cursor: pointer;
   left: 18px;
   border-style: solid;
-  border-color:  rgb(152, 175, 159);
   border-width: 1px;
-  border-radius: 20px 20px 20px 20px;
+  border-radius:  10px;
   
 }
 
