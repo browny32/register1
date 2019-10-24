@@ -75,4 +75,15 @@
     background-color: none;
     color: black;
   }
+  .col-sm-6{
+    
+    
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 3px;
+  }
+  .align{
+    margin-top: 0px;
+    bottom: 19px;
+  }
   
